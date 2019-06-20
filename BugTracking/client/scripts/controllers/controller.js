@@ -1,6 +1,6 @@
 app.controller('ctrl',($scope,$location,fac)=>{
    
-   $scope.login=()=>{
+   $scope.login=()=>{  // this is for login
        var select=$scope.select;
        var user= $scope.user;
        var pass = $scope.pass;
