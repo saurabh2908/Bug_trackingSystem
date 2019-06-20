@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is server site for bug tracking systtem",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "saurabh singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "multer": "^1.4.1",
+    "nodemailer": "^6.2.1",
+    "shortid": "^2.2.14",
+    "xls-to-json-lc": "^0.3.4",
+    "xlsx-to-json-lc": "^0.5.0"
+  }
+}
