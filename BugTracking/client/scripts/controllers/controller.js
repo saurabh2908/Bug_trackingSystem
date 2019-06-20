@@ -12,7 +12,7 @@ app.controller('ctrl',($scope,$location,fac)=>{
      
        
        let promise= fac.fetch($scope.data);
-       promise.then(data=>{
+       promise.then(data=>{ // promise to fetch data from factory
         console.log('data is ',data);
            if(data.data.doc){
                
