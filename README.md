@@ -1,6 +1,6 @@
 # Bug_trackingSystem
 
-##  version 1.2 of bug tracking system
+##  version 1.3 of bug tracking system
 
 
 ## private repoitory
