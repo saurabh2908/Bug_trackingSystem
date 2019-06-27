@@ -7,3 +7,4 @@
 
 ## added admin feature
 ## added tester panel
+## added developer feature
