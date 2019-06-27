@@ -6,5 +6,5 @@
 ## private repoitory
 
 ## added admin feature
-## added tester panel
+## added tester feature
 ## added developer feature
