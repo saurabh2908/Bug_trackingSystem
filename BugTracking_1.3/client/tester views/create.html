@@ -1,0 +1,21 @@
+<div ng-controller="tesctrl">
+<input type="text" ng-model="desc">
+<h2>{{msg}}</h2>
+            <form action="">
+            <input 
+            type="file" 
+            ngf-select 
+            ng-model="file" 
+            name="file" 
+            ngf-pattern="'image/*'"
+            accept="image/*" 
+            ngf-max-size="200MB" 
+            />
+        </form>
+       
+        <img ngf-thumbnail="file">
+
+       {{msg}}
+        <button type="submit" ng-click="submit(file)">submit</button>
+        <p>{{progressPercentage}}</p>
+</div>

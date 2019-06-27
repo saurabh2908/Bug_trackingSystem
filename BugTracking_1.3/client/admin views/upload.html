@@ -1,0 +1,20 @@
+<div ng-controller="Dashctrl">
+    <h2>{{msg}}</h2>
+    <form action="">
+    <input 
+    type="file" 
+    ngf-select 
+    ng-model="file" 
+    name="file" 
+    accept="multipart/form-data"
+    ngf-max-size="20MB" 
+    />
+</form>
+
+<img ngf-thumbnail="file">
+
+{{msg}}
+<button type="submit" ng-click="submit(file)">submit</button>
+<p>{{progressPercentage}}</p>
+
+</div>
