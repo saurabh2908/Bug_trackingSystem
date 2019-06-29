@@ -1,4 +1,4 @@
-dfdd# Bug_trackingSystem
+# Bug_trackingSystem
 
 ##  version 1.3 of bug tracking system
 
