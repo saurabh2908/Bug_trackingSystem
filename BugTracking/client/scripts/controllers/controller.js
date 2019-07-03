@@ -1,5 +1,7 @@
 app.controller('ctrl',($scope,$location,fac)=>{
    
+  //<------------------------------------------logn panel----------------------------------------------------------->
+   
    $scope.login=()=>{  // this is for login
        var select=$scope.select;
        var user= $scope.user;
