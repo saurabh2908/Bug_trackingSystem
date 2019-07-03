@@ -5,6 +5,8 @@ app.factory('fac',($http,$q,FETCH,CHANGE)=>{
             let defer =$q.defer();
             console.log("factory",data);
             $http.post(FETCH,JSON.stringify(data)).then((data)=>{
+                
+                //<------------------------------------data from server-------------------------------------------------------->
                 defer.resolve(data);
 
             },(error)=>{
