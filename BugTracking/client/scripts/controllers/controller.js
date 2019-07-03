@@ -45,7 +45,7 @@ app.controller('ctrl',($scope,$location,fac)=>{
            console.log("error is",err);
        })
    }
-
+//<-------------------------------------------change password------------------------------------------------------>
    $scope.change=()=>{
        console.log("i am here");
          $scope.data = {
